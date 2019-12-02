@@ -1,0 +1,26 @@
+nav, article, aside, footer section {
+  margin: 0 auto;
+  width: 900px;
+}
+
+nav {
+  margin-top: 25px;
+}
+
+nav ul {
+  float: right;
+}
+
+.date {
+  float: left;
+}
+
+.print {
+  text-decoration: none;
+  padding-left: 30px;
+  float: right;
+}
+
+.print img {
+  margin-right: 3px;
+}

@@ -1,0 +1,19 @@
+/* positions, structure, width, height*/
+section{
+  width: 200px;
+  height: 200px;
+  border: 2px red solid;
+  margin: auto;
+}
+
+@media only screen and (min-width:500px){
+  div{
+    height: 600px;
+    width: 600px;
+    margin: auto; 
+  }
+
+  section{
+    float: left;
+  }
+}
